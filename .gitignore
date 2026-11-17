@@ -1,0 +1,17 @@
+# Privacy: never commit videos, transcripts, reports
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/data/history.csv
+backend/data/validation.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+.vercel
+.env*
